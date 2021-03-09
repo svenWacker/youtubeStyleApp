@@ -13,7 +13,7 @@ body {
 .top-menu {
   border: 1px yellow dashed;
   width: 100vw;
-  height: 5vh;
+  height: 6vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -57,9 +57,20 @@ a:hover {
   width: 16vw;
 }
 .main {
+  display: flex;
   width: 84vw;
-  height: 82vh;
+  /* height: 82vh; */
   border: 2px rgb(9, 21, 121) dashed;
+  display: flex;
+  flex-direction: column;
+}
+.banner {
+  height: 21vh;
+  border: 1px pink dashed;
+}
+.channel {
+  height: 16vh;
+  border: 1px lightseagreen dashed;
 }
 /* footer */
 .footer-menu {
