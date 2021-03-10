@@ -4,6 +4,7 @@
   padding: 0;
   font-size: 16px;
   color: aliceblue;
+  font-family: "Roboto-Light";
 }
 body {
   background-color: rgb(66, 64, 64);
@@ -43,9 +44,17 @@ body {
   justify-content: space-evenly;
   list-style: none;
 }
-a {
+i {
+  margin: 2px;
+  padding: 4px;
   text-decoration: none;
-  transition: 0.5s;
+  /* transition: 0.5s; */
+}
+a {
+  padding-left: 1px;
+  margin-left: 1px;
+  text-decoration: none;
+  /* transition: 0.5s; */
   margin-left: 2vh;
 }
 a:hover {
@@ -61,9 +70,17 @@ a:hover {
 .side-menu {
   width: 16vw;
   border: 1px yellow dashed;
+  width: fit-content;
+  /* justify-content: center; */
+  justify-content: space-around;
+  justify-content: space-evenly;
 }
-i {
-  margin-right: 2vw;
+.side-menu h3 {
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 1vh;
+  margin: 1vw;
+  border-top: 0.1px solid #eee7e7;
 }
 /* footer */
 .footer-menu {
