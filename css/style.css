@@ -59,23 +59,7 @@ a:hover {
 }
 .side-menu {
   width: 16vw;
-}
-.main {
-  width: 84vw;
-  /* height: 82vh; */
-  border: 2px rgb(9, 21, 121) dashed;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
-}
-.banner {
-  height: 21vh;
-  border: 1px pink dashed;
-}
-.channel {
-  height: 16vh;
-  border: 1px lightseagreen dashed;
+  border: 1px yellow dashed;
 }
 
 /* footer */
@@ -87,4 +71,34 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.banner {
+  width: 84vw;
+  height: 16vh;
+  border: 1px red dashed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-image {
+  width: 84vw;
+  height: 9vh;
+  border: 1px red dashed;
+}
+.banner-subscribe {
+  width: 84vw;
+  height: 5vh;
+  border: 1px red dashed;
+}
+.channel-menu {
+  width: 84vw;
+  height: 16vh;
+  border: 1px red dashed;
+}
+ul {
+  list-style: none;
+}
+.channel-menu li {
+  display: inline;
 }
