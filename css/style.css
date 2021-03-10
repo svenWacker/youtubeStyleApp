@@ -122,6 +122,25 @@ ul {
 .channel-menu li {
   display: inline;
 }
+.video-container {
+  background-color: black;
+  height: 80vh;
+  display: block;
+  padding-top: 30px;
+}
+
+.video-box {
+  width: 20%;
+  height: auto;
+}
+.box-image {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-right: 5%;
+  background-color: rgb(15, 15, 15);
+}
 /* footer */
 .footer-menu {
   border: 1px green dashed;
