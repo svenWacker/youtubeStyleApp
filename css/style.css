@@ -45,7 +45,7 @@ body {
   list-style: none;
 }
 i {
-  margin: 2px;
+  margin: 4px;
   padding: 4px;
   text-decoration: none;
   /* transition: 0.5s; */
@@ -70,17 +70,21 @@ a:hover {
 .side-menu {
   width: 16vw;
   border: 1px yellow dashed;
-  width: fit-content;
+  /* width: fit-content; */
   /* justify-content: center; */
   justify-content: space-around;
   justify-content: space-evenly;
+}
+hr {
+  margin: 1vw;
+  border-top: 0.5px #ece9e9 solid;
+  border-radius: 10%;
 }
 .side-menu h3 {
   text-transform: uppercase;
   width: fit-content;
   padding: 1vh;
   margin: 1vw;
-  border-top: 0.1px solid #eee7e7;
 }
 /* footer */
 .footer-menu {
