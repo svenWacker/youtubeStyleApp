@@ -46,6 +46,7 @@ body {
 a {
   text-decoration: none;
   transition: 0.5s;
+  margin-left: 2vh;
 }
 a:hover {
   background-color: lightgray;
@@ -61,7 +62,9 @@ a:hover {
   width: 16vw;
   border: 1px yellow dashed;
 }
-
+i {
+  margin-right: 2vw;
+}
 /* footer */
 .footer-menu {
   border: 1px green dashed;
@@ -75,7 +78,7 @@ a:hover {
 .banner {
   width: 84vw;
   height: 16vh;
-  border: 1px red dashed;
+  border: 1px yellowgreen dashed;
   display: flex;
   justify-content: center;
   flex-direction: column;
