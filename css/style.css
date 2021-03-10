@@ -31,7 +31,7 @@ body {
 .menu li {
   display: inline;
 }
-.top-menu nav ul {
+.top-menu nav ul .channel-nav ul {
   width: 15vw;
   display: flex;
   justify-content: space-evenly;
@@ -72,6 +72,7 @@ a:hover {
   height: 16vh;
   border: 1px lightseagreen dashed;
 }
+
 /* footer */
 .footer-menu {
   border: 1px green dashed;
