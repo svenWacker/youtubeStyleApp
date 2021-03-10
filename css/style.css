@@ -4,15 +4,15 @@
   padding: 0;
   font-size: 16px;
   color: aliceblue;
-  font-family: "Roboto-Light";
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: rgb(66, 64, 64);
+  background-color: rgb(46, 44, 44);
 }
 
 /* Menu */
 .top-menu {
-  border: 1px yellow dashed;
+  /* border: 1px yellow dashed; */
   width: 100vw;
   height: 6vh;
   display: flex;
@@ -68,11 +68,11 @@ a:hover {
 /*  Main   */
 .main-container {
   display: flex;
-  border: 1px red dashed;
+  /* border: 1px red dashed; */
 }
 .side-menu {
   width: 16vw;
-  border: 1px yellow dashed;
+  /* border: 1px yellow dashed; */
   /* width: fit-content; */
   /* justify-content: center; */
   justify-content: space-around;
@@ -93,45 +93,77 @@ hr {
 
 .banner-container {
   width: 84vw;
-  height: 16vh;
-  border: 1px yellowgreen dashed;
+  height: 30vh;
+  /* border: 1px yellowgreen dashed; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.banner-image {
+.banner-image img {
   width: 84vw;
-  height: 9vh;
-  border: 1px red dashed;
+  height: 16vh;
+  display: flex;
 }
 .banner-subscribe {
   width: 84vw;
+  height: 35vh;
+  border: none;
+  background-color: rgb(44, 41, 41);
+  align-items: center;
+  /* border: 1px rgb(45, 204, 80) dashed; */
+}
+.banner-subscribe button {
+  text-transform: uppercase;
+  margin-top: 2vh;
+  margin-left: 65vw;
+  width: 9vw;
   height: 5vh;
-  border: 1px red dashed;
   background-color: red;
+  font-size: 1.2em;
+  font-weight: bold;
+  justify-content: center;
 }
 .channel-menu {
+  background-color: rgb(44, 41, 41);
   width: 84vw;
-  height: 16vh;
-  border: 1px red dashed;
+  height: 8vh;
+  /* border: 1px red dashed; */
+  padding-left: 10vw;
 }
-ul {
+/* ul {
   list-style: none;
-}
+} */
 .channel-menu li {
   display: inline;
+  margin: 1vw;
 }
+
 .video-container {
   background-color: black;
+  width: 84vw;
   height: 80vh;
   display: block;
-  padding-top: 30px;
+  padding: 5%;
+}
+.video-menu {
+  width: 84vw;
+  height: 80vh;
+}
+.video-menu h2 {
+  width: 84vw;
+  height: 4vh;
 }
 
 .video-box {
   width: 20%;
   height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-right: 5%;
+  background-color: rgb(15, 15, 15);
 }
 .box-image {
   display: flex;
