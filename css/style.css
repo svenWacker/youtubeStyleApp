@@ -4,8 +4,14 @@
   padding: 0;
   font-size: 16px;
   color: aliceblue;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: Roboto, sans-serif;
 }
+:root {
+  font-size: 16px;
+  font: Roboto, Arial;
+  word-break: break-all;
+}
+
 body {
   background-color: rgb(46, 44, 44);
 }
@@ -50,6 +56,7 @@ i {
   margin: 4px;
   padding: 4px;
   text-decoration: none;
+  justify-content: space-evenly;
   /* transition: 0.5s; */
 }
 a {
